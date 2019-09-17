@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Perky Pony</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="y_s"><b>Your Score : </b></string>
+    <string name="n_h_s"><b>New High Score!</b></string>
+
+    <string name="s_b"><b>0</b></string>
+
+
+    <string name="c_c"><b>Choose your character</b></string>
+
+</resources>

@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ADD8E6"
+    android:layout_marginBottom="1dp"
+    android:layout_marginTop="1dp"
+    android:layout_marginLeft="1dp"
+    android:layout_marginRight="1dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true">
+
+    <TextView
+        android:id="@+id/character_choose"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/c_c"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ed8305"
+        android:layout_above="@+id/bird_select"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/bird_select"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:background="@drawable/perky"
+        android:textSize="50sp"
+        android:layout_alignTop="@+id/spider_select"
+        android:layout_alignLeft="@+id/button" />
+
+    <Button
+        android:id="@+id/spider_select"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:background="@drawable/pony"
+        android:textSize="50sp"
+        android:layout_marginBottom="111dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/button" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:background="@drawable/vob"
+        android:id="@+id/button"
+        android:layout_above="@+id/character_choose"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp" />
+
+</RelativeLayout>
