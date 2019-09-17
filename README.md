@@ -9,5 +9,5 @@ This is a simple Android Game with Unlimited Levels and Speed.
 
 These are source files for the Simple Android Game {I was developed it in 2016} : [Creating Simple Android Game like flappy bird][published url]
 
-[published url]: https://github.com/gitproject09/Perky-Pony-Android-Game
+[published url]: https://github.com/gitproject09/Perky-Pony-Simple-Android-Game
 [instructor url]: https://github.com/gitproject09
